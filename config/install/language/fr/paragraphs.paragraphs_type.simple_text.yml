@@ -1,0 +1,8 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: simple_text
+label: 'Texte simple'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

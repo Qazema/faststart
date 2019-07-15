@@ -1,0 +1,63 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_components
+    - paragraphs.paragraphs_type.feature_list_item
+    - paragraphs.paragraphs_type.push_list_item
+    - paragraphs.paragraphs_type.wrapper
+  module:
+    - entity_reference_revisions
+id: paragraph.wrapper.field_components
+field_name: field_components
+entity_type: paragraph
+bundle: wrapper
+label: Composants
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles:
+      wrapper: wrapper
+      feature_list_item: feature_list_item
+      push_list_item: push_list_item
+    target_bundles_drag_drop:
+      wrapper:
+        enabled: true
+        weight: 7
+      call_to_action:
+        weight: 8
+        enabled: false
+      featured:
+        weight: 9
+        enabled: false
+      heading_title:
+        weight: 10
+        enabled: false
+      images_slider:
+        weight: 11
+        enabled: false
+      feature_list_item:
+        enabled: true
+        weight: 12
+      simple_text:
+        weight: 12
+        enabled: false
+      feature_list:
+        weight: 14
+        enabled: false
+      form:
+        weight: 16
+        enabled: false
+      push_list:
+        weight: 19
+        enabled: false
+      push_list_item:
+        enabled: true
+        weight: 20
+field_type: entity_reference_revisions

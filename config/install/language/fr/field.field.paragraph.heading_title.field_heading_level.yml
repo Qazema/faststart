@@ -1,0 +1,20 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading_level
+    - paragraphs.paragraphs_type.heading_title
+  module:
+    - options
+id: paragraph.heading_title.field_heading_level
+field_name: field_heading_level
+entity_type: paragraph
+bundle: heading_title
+label: 'Niveau du titre'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

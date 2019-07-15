@@ -1,0 +1,9 @@
+uuid: d79d3b9e-ceb1-4770-b4f7-63df4655c1ce
+langcode: fr
+status: true
+dependencies: {  }
+id: push_list_item
+label: 'Liste de push : élément'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

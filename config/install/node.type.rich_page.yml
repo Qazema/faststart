@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Rich page'
+type: rich_page
+description: 'Allows you to create <em>complex pages</em> using a component system called ''Paragraphs''.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

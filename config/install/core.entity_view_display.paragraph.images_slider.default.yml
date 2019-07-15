@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.images_slider.field_images
+    - paragraphs.paragraphs_type.images_slider
+  module:
+    - svg_image
+id: paragraph.images_slider.default
+targetEntityType: paragraph
+bundle: images_slider
+mode: default
+content:
+  field_images:
+    weight: 0
+    label: hidden
+    settings:
+      svg_attributes:
+        width: ''
+        height: ''
+      svg_render_as_image: true
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

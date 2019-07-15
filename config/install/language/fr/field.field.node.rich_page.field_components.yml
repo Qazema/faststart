@@ -1,0 +1,68 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_components
+    - node.type.rich_page
+    - paragraphs.paragraphs_type.feature_list_item
+    - paragraphs.paragraphs_type.push_list_item
+  module:
+    - entity_reference_revisions
+id: node.rich_page.field_components
+field_name: field_components
+entity_type: node
+bundle: rich_page
+label: Composants
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles:
+      feature_list_item: feature_list_item
+      push_list_item: push_list_item
+    target_bundles_drag_drop:
+      place:
+        weight: 14
+        enabled: false
+      call_to_action:
+        weight: 15
+        enabled: false
+      feature_list:
+        weight: 16
+        enabled: false
+      feature_list_item:
+        enabled: true
+        weight: 17
+      featured:
+        weight: 18
+        enabled: false
+      form:
+        weight: 19
+        enabled: false
+      heading_title:
+        weight: 20
+        enabled: false
+      images_slider:
+        weight: 21
+        enabled: false
+      push_list:
+        weight: 22
+        enabled: false
+      push_list_item:
+        enabled: true
+        weight: 23
+      simple_text:
+        weight: 24
+        enabled: false
+      video:
+        weight: 25
+        enabled: false
+      wrapper:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

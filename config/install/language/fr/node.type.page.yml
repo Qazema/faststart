@@ -1,0 +1,16 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Page de base'
+type: page
+description: 'À utiliser pour créer des <em>pages simples</em> de contenu, comme par exemple une page "Mentions légales".'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

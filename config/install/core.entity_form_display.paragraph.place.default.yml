@@ -1,0 +1,50 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.place.field_adress
+    - field.field.paragraph.place.field_heading_level
+    - field.field.paragraph.place.field_text
+    - field.field.paragraph.place.field_title
+    - paragraphs.paragraphs_type.place
+  module:
+    - text
+id: paragraph.place.default
+targetEntityType: paragraph
+bundle: place
+mode: default
+content:
+  field_adress:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_heading_level:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_text:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

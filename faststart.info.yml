@@ -1,0 +1,77 @@
+name: FastStart
+type: profile
+description: Provide a configuration to fastly start a website.
+core: 8.x
+
+dependencies:
+  #Core modules
+  - automated_cron
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - config
+  - contextual
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - filter
+  - field
+  - field_ui
+  - file
+  - image
+  - link
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - quickedit
+  - rdf
+  - search
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - toolbar
+  - update
+  - user
+  - views
+  - views_ui
+
+  #Contrib modules
+  - admin_toolbar
+  - admin_toolbar_tools
+  - block_class
+  - captcha
+  - ctools
+  - editor_advanced_link
+  - entity_reference_revisions
+  - eu_cookie_compliance
+  - field_group
+  - google_analytics
+  - linkit
+  - meta_position
+  - metatag
+  - metatag_views
+  - paragraphs
+  - pathauto
+  - recaptcha
+  - redirect
+  - redis
+  - simple_gmap
+  - simple_sitemap
+  - smtp
+  - svg_image
+  - token
+  - webform
+  - webform_ui
+
+  #Custom modules
+  - unset_html_head_link
+
+themes:
+  - classybase
+  - seven

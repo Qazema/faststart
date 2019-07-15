@@ -1,0 +1,20 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_columns
+    - paragraphs.paragraphs_type.push_list
+  module:
+    - options
+id: paragraph.push_list.field_columns
+field_name: field_columns
+entity_type: paragraph
+bundle: push_list
+label: Colonnes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

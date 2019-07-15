@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: heading_title
+label: 'Heading title'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

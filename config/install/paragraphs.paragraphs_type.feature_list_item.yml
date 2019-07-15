@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: feature_list_item
+label: 'Feature list item'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

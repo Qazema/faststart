@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies: {  }
+id: webmaster
+label: Webmaster
+weight: 2
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access site in maintenance mode'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'create article content'
+  - 'create page content'
+  - 'create rich_page content'
+  - 'customize shortcut links'
+  - 'delete any article content'
+  - 'delete any page content'
+  - 'delete any rich_page content'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete own rich_page content'
+  - 'delete page revisions'
+  - 'delete rich_page revisions'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit any rich_page content'
+  - 'edit own article content'
+  - 'edit own page content'
+  - 'edit own rich_page content'
+  - 'switch shortcut sets'
+  - 'view own unpublished content'
+  - 'view the administration theme'
+  - 'view unpublished paragraphs'

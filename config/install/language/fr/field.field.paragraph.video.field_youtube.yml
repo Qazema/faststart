@@ -1,0 +1,18 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_youtube
+    - paragraphs.paragraphs_type.video
+id: paragraph.video.field_youtube
+field_name: field_youtube
+entity_type: paragraph
+bundle: video
+label: 'URL de la Video (youtube)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

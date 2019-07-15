@@ -1,0 +1,8 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: images_slider
+label: "Slider d'images"
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

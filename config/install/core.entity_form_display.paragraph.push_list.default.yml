@@ -1,0 +1,36 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.push_list.field_columns
+    - field.field.paragraph.push_list.field_push_list_compononent
+    - paragraphs.paragraphs_type.push_list
+  module:
+    - paragraphs
+id: paragraph.push_list.default
+targetEntityType: paragraph
+bundle: push_list
+mode: default
+content:
+  field_columns:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_push_list_compononent:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraphe
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

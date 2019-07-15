@@ -1,0 +1,8 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: push_list
+label: 'Liste de push : conteneur'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

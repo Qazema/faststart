@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.rich_page.field_components
+    - field.field.node.rich_page.field_meta_description
+    - field.field.node.rich_page.field_meta_title
+    - node.type.rich_page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.rich_page.default
+targetEntityType: node
+bundle: rich_page
+mode: default
+content:
+  field_components:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  field_meta_description: true
+  field_meta_title: true

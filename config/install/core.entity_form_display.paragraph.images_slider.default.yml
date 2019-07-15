@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.images_slider.field_images
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.images_slider
+  module:
+    - svg_image
+id: paragraph.images_slider.default
+targetEntityType: paragraph
+bundle: images_slider
+mode: default
+content:
+  field_images:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

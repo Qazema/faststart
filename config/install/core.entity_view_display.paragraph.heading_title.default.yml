@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.heading_title.field_heading_level
+    - field.field.paragraph.heading_title.field_title
+    - paragraphs.paragraphs_type.heading_title
+  module:
+    - options
+id: paragraph.heading_title.default
+targetEntityType: paragraph
+bundle: heading_title
+mode: default
+content:
+  field_heading_level:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

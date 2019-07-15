@@ -1,0 +1,8 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: call_to_action
+label: "Lien / Bouton d'appel à l'action (CTA)"
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,51 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_push_list_compononent
+    - paragraphs.paragraphs_type.push_list
+    - paragraphs.paragraphs_type.push_list_item
+  module:
+    - entity_reference_revisions
+id: paragraph.push_list.field_push_list_compononent
+field_name: field_push_list_compononent
+entity_type: paragraph
+bundle: push_list
+label: 'Composant de liste de push'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      push_list_item: push_list_item
+    target_bundles_drag_drop:
+      push_list:
+        weight: 9
+        enabled: false
+      call_to_action:
+        weight: 10
+        enabled: false
+      featured:
+        weight: 11
+        enabled: false
+      heading_title:
+        weight: 12
+        enabled: false
+      images_slider:
+        weight: 13
+        enabled: false
+      push_list_item:
+        enabled: true
+        weight: 14
+      simple_text:
+        weight: 15
+        enabled: false
+      wrapper:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

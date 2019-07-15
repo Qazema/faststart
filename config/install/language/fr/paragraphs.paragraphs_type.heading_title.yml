@@ -1,0 +1,8 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: heading_title
+label: 'Titre / Sous-titre'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

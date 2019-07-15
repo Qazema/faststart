@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading_level
+    - paragraphs.paragraphs_type.featured
+  module:
+    - options
+id: paragraph.featured.field_heading_level
+field_name: field_heading_level
+entity_type: paragraph
+bundle: featured
+label: 'Heading level'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

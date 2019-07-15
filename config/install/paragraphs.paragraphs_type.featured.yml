@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: featured
+label: Featured
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
